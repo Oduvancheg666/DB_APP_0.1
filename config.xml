@@ -1,0 +1,29 @@
+<?xml version='0.1' encoding='utf-8'?>
+<widget id="itd" version="0.0.1" xmlns="" xmlns:gap="">
+    <name>Dolphin's Brother</name>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
+    <plugin name="cordova-plugin-splashscreen" source="npm" />  
+    <preference name="SplashScreenDelay" value="3000" />  
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="true" /> 
+    <allow-navigation href=""/>
+    <icon src="icon.png" />
+    <splash src="splash.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
